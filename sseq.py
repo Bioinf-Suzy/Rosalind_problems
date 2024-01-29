@@ -35,6 +35,6 @@ for i in t:
             else: 
                 continue
 
-print(len(t))
-print(len(list))
+#print(len(t))
+#print(len(list))
 print(*list)
