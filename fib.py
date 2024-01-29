@@ -3,6 +3,9 @@
 #import sys
 #print(sys.getrecursionlimit())
 #sys.setrecursionlimit(15000)
+with open('rosalind_fib.txt') as f:
+    n,k = [int(x) for x in next(f).split()]
+#print(n,k)
 
 def fib(n,k):
     if n == 1:
@@ -12,4 +15,4 @@ def fib(n,k):
     else: 
         return fib(n-1,k)+k*fib(n-2,k)
     
-print(fib(31,5))
+print(fib(n,k))
