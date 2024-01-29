@@ -1,5 +1,5 @@
 #dna
-with open('rosalind_rna.txt') as f:
+with open('rosalind_dna.txt') as f:
     dna = f.read()
 
 a = dna.count('A')
